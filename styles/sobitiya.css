@@ -10,17 +10,21 @@ table {
     width: 100%;
     max-width: 100%;
 }
+table th:nth-child(1) {
+    width: 5%;
+}
+table th:nth-child(2) {
+    width: 10%;
+}
 .table__layer {
     background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(133, 128, 128, 0.2);
     border-radius: 30px;
     width: 100%;
 }
-
 td {
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.7);
-    
 }
 td.date {
     border-left: none;
@@ -34,4 +38,9 @@ td.lore {
 }
 tr.bottom td {
     border-bottom: none;
+}
+@media (max-width: 860px) {
+    td.name {
+        word-break: break-all;
+    }
 }

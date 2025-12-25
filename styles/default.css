@@ -45,7 +45,7 @@ body {
     align-items: center;
     
     row-gap: 25px;
-    background: linear-gradient(135deg, #1a1a2e 0%, #2a3968 100%);
+    background: linear-gradient(135deg, #1a1a2e 0%, #26243f 25%, #3e3255 50%, #26243f 75%, #1a1a2e 100%);
 
     overflow: auto;
     &::-webkit-scrollbar {

@@ -12,18 +12,56 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="images/logo.png" alt="РосИст - История Российской Империи">
+        <img onclick="location.href = './index.html'" class="logo" src="images/logo.png" alt="РосИст - История Российской Империи">
+        <nav>
+            <button onclick="openMenu()" class="open__nav">
+                <div class="top"></div>
+                <div class="bottom"></div>
+            </button>
+            <div class="menu_body">
+                <menu class="mobile_menu">
+                    <ul class="top">
+                        <li><button onclick="location.href = './praviteli.html'">Правители</button></li>
+                        <li><button onclick="location.href = './sobitiya.html'">События</button></li>
+                        <li><button onclick="location.href = './simvolika.html'">Символика</button></li>
+                        <li><button onclick="location.href = './karta.html'">Карта</button></li>
+                    </ul>
+                    <ul class="bottom">
+                        <li><button onclick="location.href = './info.html'">О нас</button></li>
+                        <li><button onclick="location.href = 'mailto:sergejberbasov1294@yandex.ru'">Связаться с нами</a></li>
+                    </ul>
+                </menu>
+            </div>
+            
+            <ul class="nav">
+                <li><button onclick="location.href = './info.html'">О нас</button></li>
+                <li><button onclick="location.href = 'mailto:sergejberbasov1294@yandex.ru'">Связаться с нами</a></li>
+            </ul>
+            <ul class="nav">
+                <li><button onclick="location.href = './praviteli.html'">Правители</button></li>
+                <li><button onclick="location.href = './sobitiya.html'">События</button></li>
+                <li><button onclick="location.href = './simvolika.html'">Символика</button></li>
+                <li><button onclick="location.href = './karta.html'">Карта</button></li>
+            </ul>
+        </nav>
+        <img class="person" src="images/person.png" alt="Вход" onclick="location.href = './login.html'">
     </header>
     <main>
         <ul>
             <li class="info">
-                <h3>РосИст - сайт, посвященный истории Российской империи</h3>
-                <p>Здесь вы найдете информацию о правителях, событиях и символике во времена существования Российской империи</p>
+                <h3><u>История Российской Империи: 1721–1917</u></h4>
+                <h4>Исчерпывающий ресурс, посвященный политическому, социальному и культурному развитию России императорского периода.</h5>
+                <p>Российская Империя, провозглашенная в 1721 году по итогам Северной войны, стала логическим завершением процесса формирования единого российского государства и его превращения в ключевого игрока на мировой арене.</p>
+                <p>На нашем сайте вы найдете систематизированную информацию по всем аспектам жизни Империи:</p>
+
+                    <ul>
+                        <li>Эпохи правления: от петровских преобразований до "золотого века" Екатерины II, от консерватизма Николая I до Великих реформ Александра II и рокового правления последнего императора.</li>
+                        <li>Общество и экономика: эволюция сословий, отмена крепостного права, промышленный переворот.</li>
+                        <li>Культура и наука: взлет русской литературы, музыки, живописи и архитектуры; географические открытия и академические достижения.</li>
+                        <li>Внешняя политика: ключевые войны, дипломатические союзы и территориальная экспансия.</li>
+                    </ul>
+                <p>Мы стремимся представить объективную картину на основе документов, исследований и свидетельств очевидцев.</p>
             </li>
-            <li><button onclick="location.href = './praviteli.html'">Правители</button></li>
-            <li><button onclick="location.href = './sobitiya.html'">События</button></li>
-            <li><button onclick="location.href = './simvolika.html'">Символика</button></li>
-            <li><button onclick="location.href = './karta.html'">Карта</button></li>
         </ul>
     </main>
     <footer>

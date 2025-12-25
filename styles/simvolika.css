@@ -8,7 +8,7 @@ img#gerb {
     border-radius: 50%;
 }
 
-ul {
+.content {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
